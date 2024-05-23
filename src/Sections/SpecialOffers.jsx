@@ -1,5 +1,6 @@
 import Button from "../Component/Button";
 import { offer } from "../assets/images";
+import { arrowRight } from "../assets/icons";
 const SpecialOffers = () => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
@@ -29,7 +30,7 @@ const SpecialOffers = () => {
           fuga iste?
         </p>
         <div className="mt-11">
-          <Button label="View details" />
+          <Button label="Shop Now" iconURL={arrowRight} />
         </div>
       </div>
     </section>
